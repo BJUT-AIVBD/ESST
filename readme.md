@@ -34,10 +34,16 @@ Detailed hyperparameters config can be found in configs/_base_/
 
 The code is developed based on the following repositories. We appreciate their nice implementations.
 
-Method    Repository
+### Method Repository
+
 Swin Transformer    https://github.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation
+
 UPerNet    https://github.com/CSAILVision/unifiedparsing
+
 CSwin    https://github.com/microsoft/CSWin-Transformer
+
 PVT    https://gitcode.com/mirrors/whai362/pvt
-Cite this repository
+
+### Cite this repository
+
 If you use this software in your work, please cite it using the following metadata. Yi Yan, Jing Zhang, Xinjia Wu, Jiafeng Li, and Li Zhuo. (2023). ESST by BJUT-AI&VBD [Computer software]. https://github.com/BJUT-AIVBD/ESST
