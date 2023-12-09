@@ -42,7 +42,7 @@ UPerNet    https://github.com/CSAILVision/unifiedparsing
 
 CSwin    https://github.com/microsoft/CSWin-Transformer
 
-PVT    https://gitcode.com/mirrors/whai362/pvt
+PVT/PVT v2    https://gitcode.com/mirrors/whai362/pvt
 
 ### Cite this repository
 
