@@ -9,7 +9,7 @@ norm_cfg = dict(type='BN', requires_grad=True)
 find_unused_parameters = True
 model = dict(
     type='EncoderDecoder',
-    pretrained='../pretrained/pvt_v2_b2_li.pth',
+    pretrained='https://github.com/whai362/PVT/release/download/v2/pvt_v2_b2_li.pth',
     backbone=dict(
         type='pvt_v2_b2_li',
         style='pytorch'),
