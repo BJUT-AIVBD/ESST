@@ -15,7 +15,7 @@ pip install -e .
 python tools/train.py \
   --config configs/lightformer/mlphead_lightformer_potsdam_160k.py\
   --work-dir result/ESST \
-  --load_from path/to/pre-trained/model \
+  --load_from path/to/pre-trained/model 
 
 ### Inference on Potsdam and Vaihingen dataset
 
@@ -24,7 +24,7 @@ For example, when dataset is Potsdam and method is ESST, we can run
 python tools/test.py \
   --config configs/lightformer/mlphead_lightformer_potsdam_160k.py \
   --checkpoint path/to/ESST/model \
-  --show_dir result/ESST/test \
+  --show_dir result/ESST/test 
 
 ## Hyperparameters Configuration
 
@@ -39,8 +39,6 @@ The code is developed based on the following repositories. We appreciate their n
 Swin Transformer    https://github.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation
 
 UPerNet    https://github.com/CSAILVision/unifiedparsing
-
-CSwin    https://github.com/microsoft/CSWin-Transformer
 
 PVT/PVT v2    https://gitcode.com/mirrors/whai362/pvt
 
